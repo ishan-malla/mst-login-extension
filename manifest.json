@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "My Second Teacher Auto Login",
+  "version": "1.0",
+  "description": "Automatically redirects to app.mysecondteacher.com.np when logged in",
+  "permissions": ["webNavigation", "tabs", "cookies"],
+  "host_permissions": ["*://*.mysecondteacher.com.np/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
